@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BakerySystem.DataAccess\BakerySystem.DataAccess.csproj" />
+    <ProjectReference Include="..\BakerySystem.Repositories.Contracts\BakerySystem.Repositories.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
